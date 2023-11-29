@@ -90,14 +90,13 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text("Center Widget"),
       ),
       body: Center(
-      child:Container(
-          width: 200,
-          height: 100,
-          color: Colors.blue,
-        child: Center(child: Text("This is a center of container", style: TextStyle (color: Colors.white),)),
+        child: Text("This is the  text properties", style: TextStyle(
+          fontSize: 25,
+          color: Colors.amber,
+          backgroundColor: Colors.blue,
+          fontWeight: FontWeight.bold
 
-        ),
-
+        )),
       ),
 
     );
